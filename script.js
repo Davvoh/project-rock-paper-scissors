@@ -56,7 +56,7 @@ function playRound() {
         result= "Player Wins!";
         return result;
      }
-     else if (round==="scissorpaper") {
+     else if (round==="scissorspaper") {
         result= "Computer Wins!";
         return result;
      }
