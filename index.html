@@ -1,4 +1,42 @@
 <!DOCTYPE html>
 
+<html>
+<head>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>RPS Game</title>
+    <meta charset="UTF-8">
+</head>
 
-<script src="script.js"></script>
+<body>
+    <h1>Welcome to Rock, Paper, Scissors!</h1>
+
+    <h2>Get 5 wins to complete the game</h2>
+
+    <div class="container">
+        <div>
+            <h3>Player</h3>
+            <p id="player-score">Score: 0</p>
+            <img class="hand-played" id="player-hand" src="">
+        </div>
+        <div>
+            <h3>Computer</h3>
+            <p id="computer-score">Score: 0</p>
+            <img class="hand-played" id="computer-hand" src="">
+        </div>
+    </div>
+
+    <p id="result"></p>
+
+    <button id="play-again" onclick="location.reload()">Play Again?</button>
+
+    <div class="container">
+        <button id="rock"><img src="images/rock.png" alt="Rock Clipart"></button>
+        <button id="paper"><img src="images/paper.png" alt="Paper Clipart"></button>
+        <button id="scissors"><img src="images/scissors.png" alt="Scissors Clipart"></button>
+    </div>
+   
+</body>
+
+
+</html>
