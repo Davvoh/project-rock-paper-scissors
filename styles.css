@@ -1,0 +1,45 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+button {
+    margin: 13px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #87ff87;
+}
+
+#play-again {
+    display: none;
+}
+
+h1, h3, h2, #result {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container div{
+    background: #f7ebe8;
+    color: #1e1e24;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
